@@ -26,53 +26,6 @@ public class Main {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        try(Scanner scanner = new Scanner(new File("home"))) {
 
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                strings = line.split("#");
-
-                for (int i = 0; i < numbers.length; i++) {
-                    numbers[i] = Integer.parseInt(strings[i]);
-                }
-            }
-
-            System.out.println(Arrays.toString(numbers));
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        try(Scanner scanner = new Scanner(new File("home"))) {
-
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                strings = line.split("#");
-
-                for (int i = 0; i < numbers.length; i++) {
-                    numbers[i] = Integer.parseInt(strings[i]);
-                }
-            }
-
-            System.out.println(Arrays.toString(numbers));
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        try(Scanner scanner = new Scanner(new File("home"))) {
-
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                strings = line.split("#");
-
-                for (int i = 0; i < numbers.length; i++) {
-                    numbers[i] = Integer.parseInt(strings[i]);
-                }
-            }
-
-            System.out.println(Arrays.toString(numbers));
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 }
